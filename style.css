@@ -85,7 +85,7 @@ section.banner .left p{
     font-size: 20px;
 }
 
-section.banner .left a{
+a.link{
     background-color: #191A23;
     color: #fff;
     height: 68px;
@@ -171,4 +171,214 @@ section.partners{
 
 .services-items .service.black .left .more span{
     color: #fff;
+}
+
+section.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    margin: 0 4%;
+    border-radius: 45px;
+    padding: 2rem;
+}
+
+section.offer .left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 40%;
+}
+
+section.offer .left p{
+    font-size: 18px;
+}
+
+section.case{
+    margin: 7rem 4%;
+}
+
+.studies{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background-color: #191A23;
+    border-radius: 45px;
+    padding: 70px 50px;
+    gap: 2rem;
+}
+
+.studies .study{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 25%;
+}
+
+.studies .study p{
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+}
+
+.studies .line{
+    height: 186px;
+    width: 1px;
+    background-color: #fff;
+}
+
+.studies .study a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.studies .study a span{
+    color: #B9FF66;
+}
+
+section.working{
+    margin: 0 4%;
+}
+
+.requests{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.request{
+    background-color: #fff;
+    border-radius: 45px;
+    padding: 2rem;
+    box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    -webkit-box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    -moz-box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    border: 1px solid #191A23;
+}
+
+
+.request.active{
+    background-color: #B9FF66;
+
+}
+
+.request.active .quest{
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1rem;
+}
+
+.request.active .rep{
+    display: block;
+}
+
+.rep{
+    display: none;
+}
+
+.request .quest{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request .quest div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.request .quest div h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.request .quest div h5{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.request .quest .sign{
+    width: 58px;
+    height: 58px;
+    background-color: #F3F3F3;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    line-height: normal;
+    border: 1Px solid #000000;
+}
+
+.request .rep{
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+section.team{
+    margin: 6rem 4%;
+}
+
+.testis{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
+.testis .testi{
+    background-color: #fff;
+    border-radius: 45px;
+    padding: 2rem;
+    box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    -webkit-box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    -moz-box-shadow: 0px 2px 0px 1px rgba(25, 26, 35, 1);
+    border: 1px solid #191A23;
+}
+
+.testis .testi .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 1.5rem;
+}
+
+.testis .testi .head div{
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+}
+
+.testis .testi .head div .user{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: start;
+}
+
+.testis .testi .head div .user h6{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.testis .testi .head div .user span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testis .testi p{
+    margin-top: 2rem;
+}
+
+.team .see-more{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 2rem;
 }
